@@ -3,6 +3,8 @@ import statistics from '../data/statistics.json';
 import Profile from './profile/Profile';
 import StatisticList from './statistics/StatisticsList';
 import Section from './statistics/Section';
+import friends from '../data/friends.json';
+    import FriendList from './friend-list/FriendList';
 
 
 export default function App() {
@@ -26,7 +28,10 @@ export default function App() {
   stats={user.stats}
       />
 <Section title="Upload stats" stats={statistics} />;
-<StatisticList stats={statistics} />;
+      <StatisticList stats={statistics} />;
+  
+
+<FriendList friends={friends} />,
     </div>
   );
 };
