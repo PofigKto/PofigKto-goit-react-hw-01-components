@@ -26,11 +26,11 @@ const Profile = ({
         </li>
         <li>
           <span class="label">Views</span>
-          <span class="quantity">{Views}</span>
+          <span class="quantity">{stats.Views}</span>
         </li>
         <li>
           <span class="label">Likes</span>
-          <span class="quantity">{Likes}</span>
+          <span class="quantity">{stats.Likes}</span>
         </li>
       </ul>
     </div>
