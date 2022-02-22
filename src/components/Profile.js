@@ -21,16 +21,16 @@ const Profile = ({
 
       <ul class="stats">
         <li>
-          <span class="label">{stats.followers}</span>
-          <span class="quantity">1000</span>
+          <span class="label">Followers</span>
+          <span class="quantity">{stats.followers}</span>
         </li>
         <li>
-          <span class="label">{stats.Views}</span>
-          <span class="quantity">2000</span>
+          <span class="label">Views</span>
+          <span class="quantity">{Views}</span>
         </li>
         <li>
-          <span class="label">{stats.Likes}</span>
-          <span class="quantity">3000</span>
+          <span class="label">Likes</span>
+          <span class="quantity">{Likes}</span>
         </li>
       </ul>
     </div>
