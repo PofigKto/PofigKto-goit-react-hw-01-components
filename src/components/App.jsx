@@ -1,4 +1,8 @@
-export const App = () => {
+import user from '../user' 
+import Profile from './Profile';
+
+
+export default function App() {
   return (
     <div
       style={{
@@ -11,7 +15,14 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      React homework template
+     <Profile
+  username={user.username}
+  tag={user.tag}
+  location={user.location}
+  avatar={user.avatar}
+  stats={user.stats}
+/>
+
     </div>
   );
 };
