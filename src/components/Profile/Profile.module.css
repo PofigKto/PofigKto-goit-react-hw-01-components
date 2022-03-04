@@ -36,6 +36,7 @@
 .tag {
   /* composes: description; */
   font-size: 18px;
+  font-style: italic;
   color: #4d4e59;
 }
 .location {
