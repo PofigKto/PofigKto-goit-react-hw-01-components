@@ -4,7 +4,7 @@ import Profile from './Profile/Profile';
 import StatisticList from './Statistics/StatisticsList';
 import Section from './Statistics/Section';
 import friends from '../data/friends.json';
-import FriendList from './Friend-list/FriendList';
+import FriendList from './friend-list/FriendList';
 import Container from './Container/Container';
 
 
