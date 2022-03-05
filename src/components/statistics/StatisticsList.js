@@ -1,11 +1,21 @@
 import Statistic from './Statistic';
+// import Section from './Section';
 import PropTypes from 'prop-types';
+import s from './Statistics.module.css';
 
 function StatisticList({ stats }) {
   return (
-    <ul className="stat-list">
+    <ul className={s.statList}>
       {stats.map(stat => (
-        <li key={stat.id} className="item">
+        <li
+          key={stat.id}
+          className={s.item}
+          style={{
+            backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(
+              16
+            )} `,
+          }}
+        >
           <Statistic label={stat.label} percentage={stat.percentage} />
         </li>
       ))}
