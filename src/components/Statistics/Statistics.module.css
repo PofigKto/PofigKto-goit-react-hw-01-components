@@ -42,7 +42,7 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .wrap {
   font-size: 24px;
