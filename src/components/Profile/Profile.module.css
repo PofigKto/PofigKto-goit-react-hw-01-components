@@ -1,10 +1,9 @@
 .container {
-  /* padding: 10px; */
-  /* width: 370px; */
   background: #ffffff;
   box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     1px 4px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
 }
 .description {
   display: flex;
@@ -30,31 +29,33 @@
 .name {
   /* composes: description; */
   color: #42434d;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: bold;
 }
 .tag {
   /* composes: description; */
-  font-size: 18px;
+  font-size: 24px;
   font-style: italic;
   color: #4d4e59;
 }
 .location {
   /* composes: description; */
-  font-size: 18px;
+  font-size: 24px;
   color: #4d4e59;
 }
 .stats {
   display: flex;
-  padding: 10px;
+  padding: 18px;
   padding-inline-start: 0px;
   background-color: #f3f6f9;
 }
 .label {
+  font-size: 24px;
   color: #000000;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .quantity {
+  font-size: 24px;
   color: #4d4e59;
 }

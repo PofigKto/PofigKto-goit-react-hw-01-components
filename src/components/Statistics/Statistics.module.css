@@ -4,13 +4,14 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  width: 100%;
+  /* padding: 10px; */
+  width: 512px;
   /*width: 370px; */
   background: #ffffff;
   box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     1px 4px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
 }
 .title {
   width: 100%;
@@ -33,7 +34,8 @@
 }
 .item {
   list-style: none;
-  width: calc(100% / 5);
+  /* width: calc(100% / 5); */
+  flex-basis: 20%;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -46,10 +48,13 @@
   font-size: 24px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 .label {
-  color: red;
+  color: #ffffff;
+  padding-bottom: 15px;
 }
 .percentage {
-  color: blue;
+  color: #ffffff;
 }
