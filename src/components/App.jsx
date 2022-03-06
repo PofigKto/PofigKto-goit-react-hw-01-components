@@ -4,7 +4,7 @@ import Profile from './Profile/Profile';
 import StatisticList from './Statistics/StatisticsList';
 import Section from './Statistics/Section';
 import friends from '../data/friends.json';
-import FriendList from './friend-list/FriendList';
+import FriendList from './FriendList/FriendList';
 import Container from './Container/Container';
 
 
@@ -22,12 +22,9 @@ export default function App() {
       <Section title="Upload stats" stats={statistics} >
         <StatisticList stats={statistics} />
       </Section>
-
-    
-      
- 
-      
+     
       <FriendList friends={friends} />
+      
           </Container>
      
     
