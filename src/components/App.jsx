@@ -6,6 +6,8 @@ import Section from './Statistics/Section';
 import friends from '../data/friends.json';
 import FriendList from './FriendList/FriendList';
 import Container from './Container/Container';
+import transactions from '../data/transactions.json'
+import TransactionHistory from './TransactionHistory/TransactionHistory' ;
 
 
 export default function App() {
@@ -24,7 +26,9 @@ export default function App() {
       </Section>
      
       <FriendList friends={friends} />
-      
+     
+        <TransactionHistory items={transactions} />
+        
           </Container>
      
     
