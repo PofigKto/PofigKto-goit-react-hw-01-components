@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components/static/css/main.0b6e362f.css",
-    "main.js": "/goit-react-hw-01-components/static/js/main.e5de15f7.js",
-    "static/js/787.6b7abe35.chunk.js": "/goit-react-hw-01-components/static/js/787.6b7abe35.chunk.js",
-    "index.html": "/goit-react-hw-01-components/index.html",
-    "main.0b6e362f.css.map": "/goit-react-hw-01-components/static/css/main.0b6e362f.css.map",
-    "main.e5de15f7.js.map": "/goit-react-hw-01-components/static/js/main.e5de15f7.js.map",
-    "787.6b7abe35.chunk.js.map": "/goit-react-hw-01-components/static/js/787.6b7abe35.chunk.js.map"
+    "main.css": "/PofigKto-goit-react-hw-01-components/static/css/main.0b6e362f.css",
+    "main.js": "/PofigKto-goit-react-hw-01-components/static/js/main.b7679ddc.js",
+    "static/js/787.6b7abe35.chunk.js": "/PofigKto-goit-react-hw-01-components/static/js/787.6b7abe35.chunk.js",
+    "index.html": "/PofigKto-goit-react-hw-01-components/index.html",
+    "main.0b6e362f.css.map": "/PofigKto-goit-react-hw-01-components/static/css/main.0b6e362f.css.map",
+    "main.b7679ddc.js.map": "/PofigKto-goit-react-hw-01-components/static/js/main.b7679ddc.js.map",
+    "787.6b7abe35.chunk.js.map": "/PofigKto-goit-react-hw-01-components/static/js/787.6b7abe35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b6e362f.css",
-    "static/js/main.e5de15f7.js"
+    "static/js/main.b7679ddc.js"
   ]
 }
